@@ -53,8 +53,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_04_105621) do
   end
 
   create_table "coordinates", force: :cascade do |t|
-    t.integer "lat"
-    t.integer "long"
+    t.decimal "lat"
+    t.decimal "long"
     t.bigint "sighting_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

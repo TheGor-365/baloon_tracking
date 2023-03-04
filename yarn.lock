@@ -287,6 +287,11 @@ jquery@^3.3.1:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.3.tgz#23ed2ffed8a19e048814f13391a19afcdba160e6"
   integrity sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg==
 
+mapkick@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/mapkick/-/mapkick-0.2.4.tgz#ff87f5fdeea24a91374a78fe552d2a36dc592ece"
+  integrity sha512-hJ7O0cIfgfFQ25tTx/pgwJh2mP0xH9AprIwz7e11ozfawYEXscL+/ATIMg+YJgiCFZ33oVpl34HyC3iJnQe1+Q==
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"

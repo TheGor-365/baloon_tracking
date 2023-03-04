@@ -1,7 +1,11 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+@import 'actiontext.css';
 
 a {
   text-decoration: none !important;
 }
-@import 'actiontext.css';
+
+trix-editor.form-control {
+  height: auto !important;
+}
