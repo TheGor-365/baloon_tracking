@@ -1,0 +1,6 @@
+<%= simple_form_for @ufo do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <%= f.input :name %>
+  <%= f.input :description, as: :rich_text_area %>
+  <%= f.submit %>
+<% end %>

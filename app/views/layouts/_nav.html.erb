@@ -8,10 +8,16 @@
     <div class="collapse navbar-collapse ms-5" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="<%= ufos_path %>">Ufos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link active" aria-current="page" href="<%= sightings_path %>">Sightings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= new_ufo_path %>">Create Ufo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= new_sighting_path %>">Create Sighting</a>
         </li>
       </ul>
     </div>
