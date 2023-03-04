@@ -16,6 +16,10 @@ gem "redis", "~> 4.0"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "image_processing", "~> 1.2"
+gem "cocoon"
+gem "mapkick-rb"
+gem "simple_form"
+gem "foreman", github: "ddollar/foreman"
 
 # gem "kredis"
 # gem "bcrypt", "~> 3.1.7"
